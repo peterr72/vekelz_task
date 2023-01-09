@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=DM Sans");
+
+$mainColor : #A162F7;
+$secondaryColor:#F5F5F5;
+
+body {
+  margin: 0;
+  background-color: $secondaryColor !important;
+}
+input:focus{
+  border-color: $mainColor !important;
+}
+select:active,:focus{
+  border-color: none;
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6{
+  text-transform: capitalize;
+} 
+
+
+.bg-color{
+  background-color: $mainColor;
+}
+.secondary-color{
+  background-color: $secondaryColor;
+}
+.bg-aside{
+  background-color: #bdbdbd;
+}
+.cursor{
+  cursor: pointer;
+}
